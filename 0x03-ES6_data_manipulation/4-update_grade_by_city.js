@@ -1,5 +1,5 @@
 /* eslint-disable */
-export default function updateStudentsGradeByCity(students, city, newGrade){
+export default function updateStudentGradeByCity(students, city, newGrade){
   return students
     .filter((student) => student.location == city)
     .map((student) => {
